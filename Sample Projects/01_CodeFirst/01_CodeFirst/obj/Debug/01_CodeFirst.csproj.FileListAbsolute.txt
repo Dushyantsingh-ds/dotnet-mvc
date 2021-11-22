@@ -1,0 +1,2 @@
+C:\Users\Dev\Desktop\Learn Mvc\Youtube\01_CodeFirst\01_CodeFirst\obj\Debug\01_CodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\Dev\Desktop\Learn Mvc\New folder\01_CodeFirst\01_CodeFirst\obj\Debug\01_CodeFirst.csprojResolveAssemblyReference.cache

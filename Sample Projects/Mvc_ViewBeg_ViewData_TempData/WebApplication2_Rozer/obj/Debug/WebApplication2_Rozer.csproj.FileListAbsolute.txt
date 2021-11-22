@@ -1,0 +1,36 @@
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\WebApplication2_Rozer.dll.config
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\WebApplication2_Rozer.dll
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\WebApplication2_Rozer.pdb
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Helpers.dll
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Mvc.dll
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Razor.dll
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.dll
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.Razor.dll
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Razor.xml
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.xml
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.Razor.xml
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Helpers.xml
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Mvc.xml
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\obj\Debug\WebApplication2_Rozer.csprojResolveAssemblyReference.cache
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\obj\Debug\WebApplication2_Rozer.dll
+C:\Users\Dev\Documents\Visual Studio 2013\Mvc\Applications\WebApplication2_Rozer\WebApplication2_Rozer\obj\Debug\WebApplication2_Rozer.pdb
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\WebApplication2_Rozer.dll.config
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\WebApplication2_Rozer.dll
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\WebApplication2_Rozer.pdb
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Helpers.dll
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Mvc.dll
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Razor.dll
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.dll
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.Razor.dll
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Razor.xml
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.xml
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Webpages.Razor.xml
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Helpers.xml
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\bin\System.Web.Mvc.xml
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\obj\Debug\WebApplication2_Rozer.dll
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\obj\Debug\WebApplication2_Rozer.pdb
+C:\Users\Dev\Desktop\Learn Mvc\WebApplication2_Rozer\WebApplication2_Rozer\obj\Debug\WebApplication2_Rozer.csprojResolveAssemblyReference.cache

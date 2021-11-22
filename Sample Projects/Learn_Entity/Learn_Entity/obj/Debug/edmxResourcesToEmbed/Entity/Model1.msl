@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Learn_Mvc_EntityModelStoreContainer" CdmEntityContainer="StudentEntity">
+    <EntitySetMapping Name="Fees">
+      <EntityTypeMapping TypeName="Learn_Mvc_EntityModel.Fee">
+        <MappingFragment StoreEntitySet="Fees">
+          <ScalarProperty Name="ReceiptId" ColumnName="ReceiptId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="DateOfSubmit" ColumnName="DateOfSubmit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Libraries">
+      <EntityTypeMapping TypeName="Learn_Mvc_EntityModel.Library">
+        <MappingFragment StoreEntitySet="Library">
+          <ScalarProperty Name="BookId_" ColumnName="BookId`" />
+          <ScalarProperty Name="BookName" ColumnName="BookName" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="DateOfIssue" ColumnName="DateOfIssue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="Learn_Mvc_EntityModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

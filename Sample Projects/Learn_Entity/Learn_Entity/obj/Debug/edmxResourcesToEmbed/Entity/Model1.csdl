@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Learn_Mvc_EntityModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Fee">
+    <Key>
+      <PropertyRef Name="ReceiptId" />
+    </Key>
+    <Property Name="ReceiptId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="DateOfSubmit" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Student" Relationship="Self.FK_Fees_Student" FromRole="Fees" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Library">
+    <Key>
+      <PropertyRef Name="BookId_" />
+    </Key>
+    <Property Name="BookId_" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BookName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="DateOfIssue" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Student" Relationship="Self.FK_Library_Student" FromRole="Library" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Class" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Fees" Relationship="Self.FK_Fees_Student" FromRole="Student" ToRole="Fees" />
+    <NavigationProperty Name="Libraries" Relationship="Self.FK_Library_Student" FromRole="Student" ToRole="Library" />
+  </EntityType>
+  <Association Name="FK_Fees_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="Fees" Type="Self.Fee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Fees">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Library_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="Library" Type="Self.Library" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Library">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StudentEntity" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Fees" EntityType="Self.Fee" />
+    <EntitySet Name="Libraries" EntityType="Self.Library" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <AssociationSet Name="FK_Fees_Student" Association="Self.FK_Fees_Student">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Fees" EntitySet="Fees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Library_Student" Association="Self.FK_Library_Student">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Library" EntitySet="Libraries" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

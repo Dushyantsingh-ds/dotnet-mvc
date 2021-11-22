@@ -1,0 +1,53 @@
+﻿
+
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Inline Expression</h2>
+<p> This is Home And Today the Date is @DateTime.Now.ToShortDateString(), the Time is @DateTime.Now.ToShortTimeString() And DateTime is @DateTime.Now . </p>
+<br /> <br/>
+
+
+<h2>Variable Declaretion</h2>
+@{
+    string Welcome = "Welcome TO or SIte";
+    DateTime DateTIme = DateTime.Now;
+}
+<p> @Welcome and Today is the time @DateTIme </p>
+<br /> <br />
+
+<h2>If Else Use</h2>
+@{
+    int score = 10;
+    if(score <= 11)
+    {
+        <p> You are Losse the Game</p>
+    }
+    else
+    {
+        <p>You Winn the Game</p>
+    }
+}
+<br /> <br />
+
+<h2>For Loop Use</h2>
+@{
+    for(int i=1 ; i<11;i++)
+    {
+        <p>This is @i number of loop</p>
+    }
+}
+<br /> <br />
+
+<h2>ForEach Loop Use</h2>
+@{
+    string[] Fruits = {"Apple","Mango","Pineapple","Banana","Blackbarry"} ;
+    foreach (string i in Fruits)
+    {
+        <p>This is @i </p>
+    }
+}
+<br /> <br />

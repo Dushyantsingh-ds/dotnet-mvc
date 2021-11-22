@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="91e54bdf4dfa4483a92e489edb198e44" Name="Diagram1">
+        <EntityTypeShape EntityType="Learn_Mvc_EntityModel.Fee" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Learn_Mvc_EntityModel.Library" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Learn_Mvc_EntityModel.Student" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="false" />
+        <AssociationConnector Association="Learn_Mvc_EntityModel.FK_Fees_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="Learn_Mvc_EntityModel.FK_Library_Student" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

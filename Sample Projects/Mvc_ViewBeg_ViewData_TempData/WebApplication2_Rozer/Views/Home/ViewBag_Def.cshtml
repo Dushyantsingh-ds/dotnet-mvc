@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "ViewBag_Def";
+}
+
+<h1>ViewBag_Def</h1>
+
+<h1>Label Print</h1>
+@{
+    <p>@ViewBag.Name</p>
+    <p>@ViewBag.Class</p>
+    <p>@ViewBag.City</p>
+}
+<h1>Array Print</h1>
+@{foreach (string array in ViewBag.Array)
+{
+    <p>@array</p>
+}
+}
+
+<h1>List Print</h1>
+@{foreach(string ls in ViewBag.List)
+  {
+      <p>@ls</p>
+  }
+}

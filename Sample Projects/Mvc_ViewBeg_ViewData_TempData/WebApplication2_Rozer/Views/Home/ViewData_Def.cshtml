@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "ViewData_Def";
+}
+
+<h1>ViewData_Def</h1>
+<h1>Label Print</h1>
+
+@{
+    <p>@ViewData["Name"]</p>
+    <p>@ViewData["Class"]</p>
+    <p>@ViewData["City"]</p>
+
+}
+
+<h1>Array Print</h1>
+@{
+    foreach(string arr in (string[])ViewData["Array"])
+    {
+        <p>@arr</p>
+    }
+}
+
+<h1>List Print</h1>
+@{
+    foreach (string ls in (List<string>)ViewData["List"])
+    {
+        <p>@ls</p>
+    }
+}
