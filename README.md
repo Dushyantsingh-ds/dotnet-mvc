@@ -102,8 +102,20 @@ public ActionResult GetAllEmpolyee()
   // code 
 }
 
-[Route("Empolyee/{Id}")]
+[Route("Empolyee/{Id:int}")] //constraint, this method working when it'll get int
 public ActionResult GetEmpolyee(int Id)
+{ 
+  // code 
+}
+  
+[Route("Empolyee/{Id:int:min(5)}")] //constraint, this method working when it'll get int with min limit 5
+public ActionResult GetEmpolyee(int Id)
+{ 
+  // code 
+}  
+
+[Route("Empolyee/{Id}")]
+public ActionResult GetEmpolyee(string Id)
 { 
   // code 
 }
@@ -113,6 +125,7 @@ public ActionResult GetEmpolyeeAddress(int Id)
 { 
   // code 
 }
+  
 ```  
 </details>
 
